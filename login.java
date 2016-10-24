@@ -7,6 +7,9 @@ public class scanning {
         user1 = "abc";
         password1 = "def";
 
+        user2 = "kaswa";
+        password1 = "kaswa";
+
         //scanner untuk meng-input data yang akan di-cek
         Scanner abc = new Scanner(System. in );
 

@@ -8,7 +8,7 @@ public class scanning {
         password1 = "def";
 
         user2 = "kaswa";
-        password1 = "kaswa";
+        password2 = "kaswa";
 
         //scanner untuk meng-input data yang akan di-cek
         Scanner abc = new Scanner(System. in );
@@ -22,7 +22,11 @@ public class scanning {
         //pilihan yang diberikan
         if (user1.equals(user) && password1.equals(password)) {
             System.out.println("login berhasil");
-        } else {
+        } 
+        else if(user2.equals(user) && password2.equals(password)) {
+            System.out.println("login berhasil");
+        } 
+        else {
             System.out.println("login gagal");
         }
     }
